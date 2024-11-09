@@ -1,0 +1,20 @@
+---
+import Box from "./Box.astro";
+import proyects from "../data/proyects.js";
+---
+
+<section id="proyects" class="">
+  <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+    {
+      proyects.map((proyect) => (
+        <Box
+          title={proyect.title}
+          img={proyect.image}
+          link={proyect.link}
+          description={proyect.description}
+          technologies={proyect.technologies}
+        />
+      ))
+    }
+  </ul>
+</section>

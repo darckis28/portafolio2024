@@ -1,25 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
-
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import MainContent from "../components/MainContent.astro";
 ---
 
 <Layout title="Portafolio AndiDev">
-	<main class="w-full">
-		<section class="w-full h-screen grid place-items-center content-center ">
-
-			<p class="md:text-2xl font-semibold font-mono">Front-end Developer</p>
-			<h1 class="text-transparent font-extrabold text-4xl md:text-7xl  title tracking-wide select-none hover:text-emerald-400 transition-all " >
-			Andi Aguirre
-			</h1>
-			<div class="flex justify-center gap-5 mt-8 text-3xl ">
-				<a href="#" class="hover:scale-125 transition-all "><FaGithub /></a>
-				<a href="#" class="hover:scale-125 transition-all"><FaInstagram /></a>
-				<a href="#" class="hover:scale-125 transition-all"><FaLinkedin /> </a>
-			</div>
-		</section>
-		
-	</main>
+  <Hero />
+  <MainContent />
 </Layout>

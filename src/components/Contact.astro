@@ -1,0 +1,37 @@
+---
+import avatar from "../assets/images/avatar.webp";
+import { CiLogin } from "react-icons/ci";
+---
+
+<section class="flex flex-col mt-10 md:flex-row gap-4 md:items-center p-4">
+  <img
+    src={avatar.src}
+    alt="avatar image"
+    class="rounded-full w-80 mx-auto animate-pulse"
+  />
+  <div>
+    <h2 class="text-5xl font-semibold mb-2">Este soy yo.</h2>
+    <p class="text-white/60 font-semibold tracking-wide">
+      Font-end Developer <span class="font-thin">Fascinado por los códigos</span
+      >
+    </p>
+    <ul class="list-disc pl-6 text-white/60 py-5">
+      <li>📍 Perú, Huánuco</li>
+      <li>👓 Me gusta cocinar, videojuegos, música, estudiar</li>
+      <li>📚 Alumno de ONE (Oracle Next Education)</li>
+      <li>
+        🎩 Mi objetivo es encontar una empresa que me ayude a crecer
+        profesionalmente
+      </li>
+    </ul>
+    <a
+      href="#"
+      class="inline-flex gap-2 py-2 px-8 border items-center rounded-lg font-semibold text-sm tracking-widest ml-2 mb-4 hover:bg-shadow group/item"
+      >Revisa mi CV <span
+        class="group-hover/item:translate-x-1 transition-transform"
+        ><CiLogin /></span
+      ></a
+    >
+    <a href="#"></a>
+  </div>
+</section>

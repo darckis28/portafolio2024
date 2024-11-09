@@ -1,0 +1,30 @@
+---
+import iconsProyects from "../data/iconsProyect";
+interface Props {
+  title: string;
+  description: string;
+  link: string;
+  img: ImageMetadata;
+  technologies: any;
+}
+const { title, description, img, link, technologies } = Astro.props;
+---
+
+<li>
+  <a
+    href={link}
+    class="border rounded-md overflow-hidden border-white/30 block hover:border-shadow hover:bg-white/10">
+    <img src={img.src} alt="" class="aspect-video object-cover" />
+    <h3 class="text-lg font-bold p-2">{title}</h3>
+    <p class="text-white/50 pl-2">{description}</p>
+    <div class="flex gap-2 p-2">
+      {
+        technologies.map((technology) => (
+          <span class="block w-7">
+            <img src={iconsProyects[technology].src} alt={technology} />
+          </span>
+        ))
+      }
+    </div>
+  </a>
+</li>
