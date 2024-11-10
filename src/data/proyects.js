@@ -1,5 +1,4 @@
 
-import proyect1 from "../assets/images/avatar.webp";
 import movieDev from "../assets/images/movieDev.webp";
 import contries from "../assets/images/Countries.webp";
 const proyects = [
