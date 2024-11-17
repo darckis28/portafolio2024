@@ -1,5 +1,5 @@
 import movieDev from "../assets/images/movieDev.webp";
-import contries from "../assets/images/Countries.webp";
+import contries from "../assets/images/countries.webp";
 import mypacient from "../assets/images/mypacient.png";
 const proyects = [
   {

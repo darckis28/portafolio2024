@@ -14,8 +14,13 @@ const { title, description, img, link, technologies } = Astro.props;
   <a
     href={link}
     target="_blank"
-    class="border rounded-md overflow-hidden border-white/30 hover:border-shadow hover:bg-white/10 block min-h-96">
-    <img src={img?.src} alt="" class="aspect-video object-cover" />
+    class="border rounded-md overflow-hidden border-white/30 hover:border-shadow hover:bg-white/10 block min-h-96"
+  >
+    <img
+      src={img?.src}
+      alt=""
+      class="aspect-video object-cover"
+    />
 
     <div class="">
       <h3 class="text-lg font-bold p-2">{title}</h3>
@@ -25,7 +30,10 @@ const { title, description, img, link, technologies } = Astro.props;
       {
         technologies.map((technology) => (
           <span class="block w-7">
-            <img src={iconsProyects[technology].src} alt={technology} />
+            <img
+              src={iconsProyects[technology].src}
+              alt={technology}
+            />
           </span>
         ))
       }
