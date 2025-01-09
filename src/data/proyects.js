@@ -1,6 +1,7 @@
 import movieDev from "../assets/images/movieDev.webp";
 import contries from "../assets/images/countries.webp";
 import mypacient from "../assets/images/mypacient.png";
+import shop from "../assets/images/shop.png";
 const proyects = [
   {
     title: "MovieDev",
@@ -24,6 +25,13 @@ const proyects = [
       "Es una aplicación diseñada para ayudar a los médicos a gestionar de manera fácil y rápida la información de sus pacientes. Tiene una función de búsqueda rápida usando el DNI del paciente.",
     link: "https://mypacientperu.netlify.app/",
     image: mypacient,
+    technologies: ["css", "html", "javascript", "react", "tailwind"],
+  },
+  {
+    title: "Shop.pe",
+    description: "Es una aplicación para emular un ecommers",
+    link: "https://shop-pe.netlify.app/",
+    image: shop,
     technologies: ["css", "html", "javascript", "react", "tailwind"],
   },
 ];
