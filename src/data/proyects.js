@@ -2,6 +2,7 @@ import movieDev from "../assets/images/movieDev.webp";
 import contries from "../assets/images/countries.webp";
 import mypacient from "../assets/images/mypacient.png";
 import shop from "../assets/images/shop.png";
+import pomodoro from "../assets/images/pomodoro.png";
 const proyects = [
   {
     title: "MovieDev",
@@ -25,6 +26,14 @@ const proyects = [
       "Es una aplicación diseñada para ayudar a los médicos a gestionar de manera fácil y rápida la información de sus pacientes. Tiene una función de búsqueda rápida usando el DNI del paciente.",
     link: "https://mypacientperu.netlify.app/",
     image: mypacient,
+    technologies: ["css", "html", "javascript", "react", "tailwind"],
+  },
+  {
+    title: "Pomodoro.dev",
+    description:
+      "Este es un proyecto de un temporizador Pomodoro que te ayudará a mejorar tu productividad gestionando tu tiempo de trabajo y descanso.",
+    link: "https://pomodorodev.netlify.app/",
+    image: pomodoro,
     technologies: ["css", "html", "javascript", "react", "tailwind"],
   },
   {
