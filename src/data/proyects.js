@@ -36,12 +36,12 @@ const proyects = [
     image: pomodoro,
     technologies: ["css", "html", "javascript", "react", "tailwind"],
   },
-  {
-    title: "Shop.pe",
-    description: "Es una aplicación para emular un ecommers",
-    link: "https://shop-pe.netlify.app/",
-    image: shop,
-    technologies: ["css", "html", "javascript", "react", "tailwind"],
-  },
+  // {
+  //   title: "Shop.pe",
+  //   description: "Es una aplicación para emular un ecommers",
+  //   link: "https://shop-pe.netlify.app/",
+  //   image: shop,
+  //   technologies: ["css", "html", "javascript", "react", "tailwind"],
+  // },
 ];
 export default proyects;
